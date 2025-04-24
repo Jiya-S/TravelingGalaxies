@@ -1,0 +1,104 @@
+{
+    "Title": "Travel the Galaxies",
+    "Credits": "Created by Jiya Sawarkar.",
+    "InitialLocation": "Milky Way",
+    "Locations": {
+        "Milky Way": {
+            "Body": "Our home galaxy, start off your journey with nothing but a rocket and your dreams.",
+            "Choices": [
+                {
+                    "Text": "Andromeda",
+                    "Target": "Andromeda"
+                },
+                {
+                    "Text": "Black Eye",
+                    "Target": "Black Eye"
+                }
+            ]
+        },
+        "Andromeda": {
+            "Body": "You are in Andromeda, a beautiful galaxy twice the size of our own.",
+            "Choices": [
+                {
+                    "Text": "Black Eye",
+                    "Target": "Black Eye"
+                },
+                {
+                    "Text": "Go back home",
+                    "Target": "Milky Way"
+                },
+                {
+                    "Text": "Large Magellanic Cloud",
+                    "Target": "Large Magellanic Cloud"
+                }
+            ],
+            "Interactions": [
+                {
+                    "Text": "Collect Stardust",
+                    "Gain": "stardust"
+                }
+            ]
+        },
+        "Black Eye": {
+            "Body": "You are in the Black Eye Galaxy, a true intellectual destination.",
+            "Choices": [
+                {
+                    "Text": "Andromeda",
+                    "Target": "Andromeda"
+                },
+                {
+                    "Text": "Large Magellanic Cloud",
+                    "Target": "Large Magellanic Cloud"
+                }
+            ],
+            "Interactions": [
+                {
+                    "Text": "Pick up book",
+                    "Gain": "book"
+                }
+            ]
+        },
+        "Large Magellanic Cloud": {
+            "Body": "This is a rather unexplored galaxy, with lots to uncover. Enjoy!",
+            "Choices": [
+                {
+                    "Text": "Go back to Andromeda",
+                    "Target": "Andromeda"
+                },
+                {
+                    "Text": "Go back to Black Eye",
+                    "Target": "Black Eye"
+                },
+                {
+                    "Text": "Cigar",
+                    "Target": "Cigar"
+                }
+            ]
+        },
+        "Cigar": {
+            "Body": "This is the last place you must come to before you can head home. I hope you've collected your fuel, and gotten a bit wiser.",
+            "Choices": [
+                {
+                    "Text": "Go back to Large Magellanic Cloud",
+                    "Target": "Large Magellanic Cloud"
+                },
+                {
+                    "Text": "Travel back home",
+                    "Target": "Milky Way Home"
+                }
+            ]
+        },
+        "Milky Way Home": {
+            "Body": "You are deciding to end your quest. Let's see if you are successful."
+        }
+        
+    },
+    "BookPages": [
+        "Page 1: The cosmos…",
+        "Page 2: Fuel and wisdom…",
+        "Page 3: Our universe...",
+        "Page 4: The truth is...",
+        "Page 5: The final piece..."
+      ]
+}
+
